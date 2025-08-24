@@ -1,0 +1,13 @@
+[package]
+name = "webcrawl"
+version = "0.1.0"
+authors = ["Your Name <you@example.com>"]
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+reqwest = { version = "0.11", features = ["json", "blocking", "rustls-tls"] }
+scraper = "0.13"
+tokio = { version = "1.0", features = ["full"] }
+regex = "1.5"
+url = "2.2"
