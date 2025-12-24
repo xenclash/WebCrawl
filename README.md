@@ -29,4 +29,9 @@ Limits concurrent requests to avoid overwhelming target sites
 # Notes
 Some websites may block automated requests or require additional handling.
 You can extend the script to scan for more vulnerabilities or log results.
-Please use for ethical purposes and when given permission.
+
+⚖️ Ethical Use Notice
+
+This project is intended for educational and authorized penetration testing purposes only. Before scanning any website, you must obtain explicit permission from the owner.
+
+Unauthorized scanning of public websites or servers is illegal in many jurisdictions and strictly prohibited. Use responsibly — the goal is to improve security, not exploit vulnerabilities.
