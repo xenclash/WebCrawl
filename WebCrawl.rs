@@ -154,7 +154,7 @@ async fn main() {
     // Track visited URLs to avoid revisiting the same page (thread-safe)
     let visited = Arc::new(Mutex::new(HashSet::new()));
 
-    // Start crawling from the specified URL
+    // Start crawling from the specified site URL
     crawl_page(&start_url, semaphore.clone(), visited.clone(), crawl_depth).await;
 
     println!("[*] Crawling complete!");
