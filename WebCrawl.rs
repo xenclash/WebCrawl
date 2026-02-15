@@ -14,7 +14,7 @@ async fn get_headers(url: &str) -> Result<HeaderMap, reqwest::Error> {
     Ok(response.headers().clone())
 }
 
-// Function to extract links from HTML content
+// Function to extract links from the HTML content
 fn extract_links(body: &str) -> Vec<String> {
     let document = Html::parse_document(body);
     let selector = Selector::parse("a[href]").unwrap();
