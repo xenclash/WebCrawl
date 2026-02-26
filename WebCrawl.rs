@@ -7,7 +7,7 @@ use tokio::{task, sync::{Semaphore, Mutex}};
 use std::sync::Arc;
 use regex::Regex;
 
-// Function to extract HTTP headers
+// Function to extract HTTP & HTTPS headers
 async fn get_headers(url: &str) -> Result<HeaderMap, reqwest::Error> {
     let client = reqwest::Client::new();
     let response = client.get(url).send().await?;
