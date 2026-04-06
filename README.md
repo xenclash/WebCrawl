@@ -36,4 +36,4 @@ This project is intended for educational and authorized penetration testing purp
 
 Unauthorized scanning of public websites or servers is illegal in many jurisdictions and strictly prohibited. Use responsibly — the goal is to improve security, not exploit vulnerabilities.
 
-> - AI assisted enhancements applied to debugging, optimization, and automation
+> - All code is made by scratch, then used Copilot to assist with enhancements applied to debugging, and optimization.
