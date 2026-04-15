@@ -1,5 +1,5 @@
 # WebCrawl
-A small tool that crawls websites and scans them for vulnerabilities, such as common misconfigurations or outdated software versions in HTTP headers.
+A small tool that crawls websites, scanning them for vulnerabilities, such as common misconfigurations or outdated software versions in HTTP headers.
 
 # WebCrawl: Automated Web Vulnerability Crawler
 This Rust script crawls websites and scans for common misconfigurations or outdated software in HTTP headers. It’s designed for ethical hacking, bug bounty, and security research.
