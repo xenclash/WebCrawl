@@ -28,7 +28,7 @@ fn extract_links(body: &str) -> Vec<String> {
     links
 }
 
-// Check for common vulnerabilities in any HTTP header
+// Check for common vulnerabilities in any HTTP headers
 fn check_for_vulnerabilities(headers: &HeaderMap, url: &str) {
     // Checking for missing security headers
     if headers.get("X-Content-Type-Options").is_none() {
