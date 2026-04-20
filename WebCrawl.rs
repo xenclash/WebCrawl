@@ -58,7 +58,7 @@ fn check_for_vulnerabilities(headers: &HeaderMap, url: &str) {
     }
 }
 
-// Asynchronous function to crawl a page and process its content
+// Asynchronous function to crawl a page and process its contents
 async fn crawl_page(url: &str, semaphore: Arc<Semaphore>, visited: &mut HashSet<String>, depth: u32) {
     let _permit = semaphore.acquire().await.unwrap();
 
