@@ -85,7 +85,7 @@ async fn crawl_page(url: &str, semaphore: Arc<Semaphore>, visited: &mut HashSet<
             };
             let headers = res.headers().clone();
 
-            // Check for vulnerabilities in headers
+            // Check for vulnerabilities in the headers
             check_for_vulnerabilities(&headers, url);
 
             // Extract links from the page
