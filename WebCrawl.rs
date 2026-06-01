@@ -113,7 +113,7 @@ async fn crawl_page(url: &str, semaphore: Arc<Semaphore>, visited: &mut HashSet<
     }
 }
 
-// Parse command-line arguments
+// Parse command line arguments
 fn parse_args() -> (String, u32) {
     let matches = App::new("VulnCrawler")
         .version("1.0")
