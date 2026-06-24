@@ -1,8 +1,5 @@
-# WebCrawl
-A small W.I.P tool that crawls websites, scanning them for vulnerabilities, such as common misconfigurations or outdated software versions in HTTP headers
-
-# WebCrawl: Automated Web Vulnerability Crawler
-This Rust script crawls websites and scans for common misconfigurations or outdated software in HTTP headers. It’s designed for ethical hacking, bug bounty, and security research.
+# WebCrawl: utomated Web Vulnerability Crawler
+A small WIP Rust Web vulnerability scanner that crawls websites to discover misconfigurations or outdated software versions, and API's 
 
 Prerequisites
 Rust (install with the command below)
@@ -36,4 +33,4 @@ This project is intended for educational and authorized penetration testing purp
 
 Unauthorized scanning of public websites or servers is illegal in many jurisdictions and strictly prohibited. Use responsibly — the goal is to improve security, not exploit vulnerabilities.
 
-> - All code is made by scratch, then used Copilot to assist with enhancements applied to debugging, and optimization.
+> - All code is made by scratch, then used Claude to assist with enhancements applied to debugging, and optimization.
