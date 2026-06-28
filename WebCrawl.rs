@@ -73,7 +73,7 @@ async fn crawl_page(url: &str, semaphore: Arc<Semaphore>, visited: &mut HashSet<
 
     println!("[*] Crawling: {}", url);
 
-    // Fetch page content and headers
+    // Fetch all page content and headers
     match reqwest::get(url).await {
         Ok(res) => {
             let body = match res.text().await {
