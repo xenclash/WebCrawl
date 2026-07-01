@@ -1,5 +1,5 @@
 # WebCrawl: Automated Web Vulnerability Crawler
-A small WIP Rust Web vulnerability scanner that crawls websites to discover misconfigurations or outdated software versions, and API's 
+A small WIP Rust Web vulnerability scanner that crawls websites to discover misconfigurations, outdated software versions, and API's 
 
 Prerequisites
 Rust (install with the command below)
