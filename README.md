@@ -24,10 +24,11 @@ Recursively crawls links found on each page
 Limits concurrent requests to avoid overwhelming target sites
 
 # Notes
+
 Some websites may block automated requests or require additional handling.
 You can extend the script to scan for more vulnerabilities or log results.
 
-⚖️ Ethical Use Notice
+# ⚖️ Ethical Use Notice
 
 This project is intended for educational and authorized penetration testing purposes only. Before scanning any website, you must obtain explicit permission from the owner.
 
