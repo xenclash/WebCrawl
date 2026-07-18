@@ -151,7 +151,7 @@ async fn main() {
     // Set a limit for concurrent tasks (to avoid overwhelming the target site)
     let semaphore = Arc::new(Semaphore::new(10)); // Limit to 10 concurrent tasks
 
-    // Track visited URLs to avoid revisiting the same page (thread-safe)
+    // Track visited URLs to avoid constant revisiting the same page (thread-safe)
     let visited = Arc::new(Mutex::new(HashSet::new()));
 
     // Start crawling from the specified site URL
