@@ -157,5 +157,5 @@ async fn main() {
     // Start crawling from the specified site URL
     crawl_page(&start_url, semaphore.clone(), visited.clone(), crawl_depth).await;
 
-    println!("[*] Crawling is complete!");
+    println!("[*] Web Crawling is complete!");
 }
