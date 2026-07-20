@@ -145,7 +145,7 @@ fn parse_args() -> (String, u32) {
 
 #[tokio::main]
 async fn main() {
-    // Parse the command line arguments
+    // Parse command line arguments
     let (start_url, crawl_depth) = parse_args();
 
     // Set a limit for concurrent tasks (to avoid overwhelming the targeted site)
