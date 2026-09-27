@@ -19,7 +19,7 @@ Adjust --depth for how deep you want to crawl (default is 2).
 # Features
 
 Checks for missing security headers (e.g., X-Content-Type-Options, Strict-Transport-Security, Content-Security-Policy)
-Detects outdated server software in HTTP headers
+Detects outdated server software versions and API's
 Recursively crawls links found on each page
 Limits concurrent requests to avoid overwhelming target sites
 
